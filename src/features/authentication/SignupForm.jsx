@@ -23,7 +23,7 @@ function SignupForm() {
     }
 
     return (
-        <Form onSubmit={handleSubmit(onSubmit)}>
+        <Form noValidate onSubmit={handleSubmit(onSubmit)}>
             <FormRow label="Full name" error={errors?.fullName?.message}>
                 <Input
                     type="text"
@@ -91,7 +91,7 @@ function SignupForm() {
                 <Button variation="secondary" type="reset" onClick={reset}>
                     Cancel
                 </Button>
-                <Button>Create new user</Button>
+                <Button disabled={isSigningUp}>Create new user</Button>
             </FormRow>
         </Form>
     );
