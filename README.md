@@ -6,8 +6,6 @@
 This is a small web app made for employees of a fictional hotel, The Wild Oasis, to track details about bookings and guests. A deployed version (on Netlify) of the app is [here (https://the-wild-oasis-hotel-1.netlify.app)](https://the-wild-oasis-hotel-1.netlify.app), which you can try out for yourself!
 
 Login credentials for the demo app are any of the following:
-- Email: blackcataou@gmail.com
-- Password: Dragon1234
 
 | Account Name  | Email | Password |
 | ------------- | ----- | -------- |
